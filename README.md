@@ -8,7 +8,7 @@ Seja bem-vinde à página de cadastro do marketplace da Civitas! Nela você cons
 
 ## **Clone o Repositório**
 
-Para que seja possível a execução dos arquivos deste repositório, o usuário deve clonar através da ferramenta [git](https://git-scm.com/downloads). Abrindo o terminal do seu sistema operacional ou o GitBash, insira o seguinte comando na pasta desejada:
+Para que seja possível a execução dos arquivos deste repositório, o usuário deve clonar através da ferramenta **[git](https://git-scm.com/downloads)**. Abrindo o terminal do seu sistema operacional ou o GitBash, insira o seguinte comando na pasta desejada:
 ```
 git clone https://gitlab.com/lumifere/civitas-form.git
 ```
@@ -17,17 +17,17 @@ git clone https://gitlab.com/lumifere/civitas-form.git
 
 ## **Instale o Node**
 
-De forma a prosseguir com o processo, você deve ter instalado já o [Node](https://nodejs.org/en/download/). Com isso, referencie a pasta <code>civitas-form</code> no terminal e digite o comando:
+De forma a prosseguir com o processo, você deve ter instalado já o **[Node](https://nodejs.org/en/download/)**. Com isso, referencie a pasta **`civitas-form`** no terminal e digite o comando:
 ```
 npm install
 ```
-Esse comando tem como objetivo inserir a pasta <code>node_modules</code> dentro da pasta <code>civitas-form</code>.
+Esse comando tem como objetivo inserir a pasta **`node_modules`** dentro da pasta **`civitas-form`**.
 
 <br>
 
 ## **Instale o JSON Server**
 
-É necessário também fazer a instalação da biblioteca [JSON Server](https://www.npmjs.com/package/json-server), bibliteca essa que simula uma API para cadastro das informações do site. Digite os seguintes comandos em ordem:
+É necessário também fazer a instalação da biblioteca **[JSON Server](https://www.npmjs.com/package/json-server)**, bibliteca essa que simula uma API para cadastro das informações do site. Digite os seguintes comandos em ordem:
 
 ```
 npm install -g json-server
@@ -61,12 +61,12 @@ A saída esperada deve ser
 
 ## **Instale o VSC e o Live Server**
 
-A seguir é necessário que o usuário utilize o [VSC](https://code.visualstudio.com/) para visualização e edição dos arquivos do repositório. Essa necessidade se dá devido o uso da extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), que nos permitirá visualizar em tempo real as modificações feitas nos arquivos do repositório. 
+A seguir é necessário que o usuário utilize o **[VSC](https://code.visualstudio.com/)** para visualização e edição dos arquivos do repositório. Essa necessidade se dá devido o uso da extensão **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)**, que nos permitirá visualizar em tempo real as modificações feitas nos arquivos do repositório. 
 
 <br>
 
 ## **Execução**
 
-Com a extensão já instalada e com a fake API do JSON Server executando, abra o arquivo <code>homepage.html</code> no VSC e execute o Live Server através da opção `Go Live` no canto inferior direito do programa, ou pressione a tecla `F5`.
+Com a extensão já instalada e com a fake API do JSON Server executando, abra o arquivo **`homepage.html`** no VSC e execute o Live Server através da opção **Go Live** no canto inferior direito do programa, ou pressione a tecla **`F5`**.
 
-Ao abrir a página do site no browser, insira os dados necessários e clique no botão "Registrar" logo abaixo. A página irá atualizar, evidenciando que os dados informados foram inseridos no arquivo `db.json`, bastando que você o abra no VSC para visualizar as informações cadastradas.
+Ao abrir a página do site no browser, insira os dados necessários e clique no botão **Registrar** logo abaixo. A página irá atualizar, evidenciando que os dados informados foram inseridos no arquivo **`db.json`**, bastando que você o abra no VSC para visualizar as informações cadastradas.
