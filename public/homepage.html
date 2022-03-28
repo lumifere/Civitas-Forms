@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Civitas</title>
+    <link type="text/css" rel="stylesheet" href="./style.css"">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav_logo">
+                <a href="/html/homepage.html"><img src="/assets/civitaslogo.svg" alt="logo"></a>
+            </div>
+
+            <ul class="nav_bt">
+                <li class="nav_botoes">
+                    <form><input type="submit" value="Login" class="nav_login"></form>
+                </li>
+                <li class="nav_botoes">
+                    <form><input type="submit" value="Quero ser Civitas" class="nav_registro"></form>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="inicial">
+            <div class="inicial_intro">
+                <div class="inicial_titulo">
+                    <img src="/assets/logo_com_civitas.svg" alt="titulo">
+                    <h2 class="inicial_texto">O marketplace de produtos e serviços<br> criado pela comunidade e para a
+                        comunidade!<br></h2>
+                </div>
+
+                <div class="inicial_campo">
+                    <div class="inicial_textcampo">
+                        <h3>Deseja se tornar Civitas?<br>Preencha os campos abaixo:</h3><br>
+                        <form>
+
+                            <div class="inicial_campos">
+                                <label for="inicial_nome">Nome: </label>
+                                <input type="text" name="nome" id="inicial_nome">
+                            </div>
+                            <div class="inicial_campos">
+                                <label for="desc">E-mail: </label>
+                                <input type="email" name="email" id="inicial_email">
+                            </div>
+                            <div class="inicial_campos">
+                                <label for="desc">Senha: </label>
+                                <input type="password" name="senha" id="inicial_senha">
+                            </div>
+                            <div class="inicial_campos">
+                                <label for="data">Data de Nascimento: </label>
+                                <input type="date" name="data" id="inicial_data">
+                            </div>
+
+                            <br><span class="erro invisivel">Preencha todos os campos!</span>
+
+                            <button id="inicial_registrar">Registrar</button>
+                        </form>
+                    </div>
+                </div>
+
+                <h3 class="inicial_download1">Baixe agora o aplicativo!</h3>
+                <div class="inicial_download2">
+                    <a href="https://www.apple.com/br/app-store/"><img src="/assets/appstore.svg" alt="appstore"></a>
+                    <a href="https://play.google.com/store"><img src="/assets/playstore.svg" alt="playstore"></a>
+                </div>
+
+            </div>
+
+            <div class="inicial_img">
+                <img src="/assets/Imagem Main.png" alt="tela app home">
+            </div>
+        </div>
+
+        <div class="clearfix">
+        </div>
+    </header>
+
+    <main>
+        <hr>
+        <section class="corpo">
+            <div class="corpo_campos">
+                <div class="corpo_textos">
+                    <h2>A plataforma ideal para adquirir <br> e anunciar serviços e produtos.</h2><br>
+                    <h3>Escolha dentre as diversas categorias <br> de acordo com a sua necessidade.</h3><br>
+                    <h3>Realize compras e vendas com grande<br> facilidade na palma da sua mão.</h3>
+                </div>
+                <div>
+                    <img src="/assets/Imagem Menus.png" alt="tela home">
+                </div>
+            </div>
+
+            <div class="corpo_campos">
+                <div>
+                    <img src="/assets/Imagem Venda.png" alt="tela anuncio">
+                </div>
+                <div class="corpo_textos">
+                    <h2>Desapegue de produtos que você não <br>usa mais e anuncie seus serviços.</h2><br>
+                    <h3>Receba o valor integral das vendas na hora<br>que quiser!</h3><br>
+                </div>
+            </div>
+
+            <div class="corpo_campos">
+                <div class="corpo_textos">
+                    <h2>Adquira produtos e contrate serviços <br> por preços que cabem no seu bolso.</h2><br>
+                    <h3>Avalie os vendedores de forma à contribuir<br>com a comunidade.</h3><br>
+                </div>
+                <div>
+                    <img src="/assets/Imagem Compra.png" alt="tela compra">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2022 Civitas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+<script type="module" src="/src/controllers/createUser.js"></script>
+
+</html>
